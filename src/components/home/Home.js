@@ -6,8 +6,8 @@ import logoThree from './images/carousel-3.jpg';
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import ContentAccordion from "./ContentAccordion";
-import ContentTabs from "./ContentTabs";
+import ContentAccordion from "./content/ContentAccordion";
+import ContentTabs from "./content/ContentTabs";
 
 function Home() {
     return (

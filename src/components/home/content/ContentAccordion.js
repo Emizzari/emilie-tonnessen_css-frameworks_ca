@@ -2,7 +2,7 @@ import React from 'react';
 import Accordion from 'react-bootstrap/Accordion';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-import TabImage from './images/tab-image.png';
+import TabImage from '../images/tab-image.png';
 
 function ContentAccordion() {
     return (
