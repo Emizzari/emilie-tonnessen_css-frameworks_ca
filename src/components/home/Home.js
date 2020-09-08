@@ -9,11 +9,6 @@ import Col from "react-bootstrap/Col";
 import ContentAccordion from "./ContentAccordion";
 import ContentTabs from "./ContentTabs";
 
-
-console.log(logoOne);
-console.log(logoTwo);
-console.log(logoThree);
-
 function Home() {
     return (
         <>
