@@ -3,6 +3,12 @@ import { Carousel } from 'react-bootstrap';
 import logoOne from './images/carousel-1.jpg';
 import logoTwo from './images/carousel-2.jpg';
 import logoThree from './images/carousel-3.jpg';
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import ContentAccordion from "./ContentAccordion";
+import ContentTabs from "./ContentTabs";
+
 
 console.log(logoOne);
 console.log(logoTwo);
@@ -10,6 +16,7 @@ console.log(logoThree);
 
 function Home() {
     return (
+        <>
         <Carousel>
             <Carousel.Item>
                 <img
@@ -35,6 +42,27 @@ function Home() {
                 />
             </Carousel.Item>
         </Carousel>
+
+        <Container>
+            <h1>We do YAY things</h1>
+            <p>
+                Nam tincidunt, sapien nec congue porta, tellus risus ullamcorper mi, a rutrum justo eros pretium libero. Nullam vel enim id mauris eleifend finibus et ac orci. Aliquam metus massa, aliquam quis arcu sit amet, consectetur faucibus urna. Suspendisse massa diam, efficitur eu massa euismod, pretium lacinia magna. Donec mi orci, sollicitudin in luctus a, varius eget massa.
+            </p>
+        </Container>
+
+        <Container>
+            <Row>  
+                <Col>
+                        <div className="d-block d-md-none">
+                            <ContentAccordion />
+                    </div>
+                        <div className="d-none d-md-block">
+                        <ContentTabs />
+                    </div>
+                </Col>
+            </Row>
+        </Container>
+        </>
     )
 }
 

@@ -9,6 +9,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Form from "react-bootstrap/Form";
 import FormControl from "react-bootstrap/FormControl";
 import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
 
 
 function App() {
@@ -54,7 +55,24 @@ function App() {
           </Route>
         </Switch> 
       </div>
+
+      <Card.Footer>
+        <div>
+          <i class="fab fa-vimeo-v"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+
+        <div>
+          hello@yay.com
+        </div>
+
+        <div>
+          Copyright 2020
+        </div>
+      </Card.Footer>
     </Router>
+
+    
   );
 }
 
