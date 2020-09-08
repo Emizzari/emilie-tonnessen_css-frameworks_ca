@@ -1,0 +1,49 @@
+// Color Variables:
+$primary: #E92569;
+$secondary: #767676;
+
+$nav: #0A0A0A;
+
+$background: red;
+// radial-gradient(#E5E5E5, #FFFFFF)
+
+
+$white: #FFFFFF;
+$black: #000000;
+
+$lighten: 5;
+$darken: 25;
+
+// Color Map:
+$colors: (
+    primary: (
+        base: $primary,
+        light: lighten($primary, $lighten),
+        dark: darken($primary, $darken),
+    ),
+    secondary: (
+        base: $secondary,
+        light: lighten($secondary, $lighten),
+        dark: darken($secondary, $darken),
+    ),
+    nav: (
+        base: $nav,
+        light: lighten($nav, $lighten),
+        dark: darken($nav, $darken),
+    ),
+    background: (
+        base: $background,
+        light: lighten($background, $lighten),
+        dark: darken($background, $darken),
+    ),
+);
+
+// Color Function:
+@function colors($base, $shade: base) {
+    $color: map-get(
+        map-get($colors, $base), 
+        $shade
+    );
+
+    @return $color;
+}
