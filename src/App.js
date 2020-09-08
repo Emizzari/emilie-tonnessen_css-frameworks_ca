@@ -6,6 +6,9 @@ import News from './components/news/News';
 import Contact from './components/contact/Contact';
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import Form from "react-bootstrap/Form";
+import FormControl from "react-bootstrap/FormControl";
+import Button from "react-bootstrap/Button";
 
 
 function App() {
@@ -13,7 +16,7 @@ function App() {
     <Router>
       <div>
         <Navbar expand="lg">
-          <Navbar.Brand href="/">Logo</Navbar.Brand>
+          <Navbar.Brand href="/">The YAY Company</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
@@ -29,6 +32,11 @@ function App() {
                 Contact
               </NavLink>
             </Nav>
+          
+            <Form inline>
+              <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+              <Button variant="outline-light">Go</Button>
+            </Form>
           </Navbar.Collapse>
         </Navbar>
       
