@@ -58,8 +58,8 @@ function App() {
 
       <Card.Footer>
         <div>
-          <i class="fab fa-vimeo-v"></i>
-          <i class="fab fa-youtube"></i>
+          <i className="fab fa-vimeo-v"></i>
+          <i className="fab fa-youtube"></i>
         </div>
 
         <div>
