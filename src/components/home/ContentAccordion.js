@@ -6,6 +6,7 @@ import TabImage from './images/tab-image.png';
 
 function ContentAccordion() {
     return (
+        <>
         <Accordion defaultActiveKey="0">
             <Card>
                 <Card.Header>
@@ -51,6 +52,7 @@ function ContentAccordion() {
                 </Accordion.Collapse>
             </Card>
         </Accordion>
+        </>
     )
 }
 
