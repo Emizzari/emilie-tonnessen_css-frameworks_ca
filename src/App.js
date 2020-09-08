@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.scss';
+import "./sass/style.scss";
 import { BrowserRouter as Router, Switch, Route, NavLink } from "react-router-dom";
 import Home from './components/home/Home';
 import News from './components/news/News';
