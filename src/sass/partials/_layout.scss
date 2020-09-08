@@ -1,5 +1,7 @@
-.test{
+body, html{
     height: 100%;
     width: 100%;
-    color: red;
+    box-sizing: border-box;
+    background: radial-gradient(colors(background), $white);
 }
+
