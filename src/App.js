@@ -56,20 +56,31 @@ function App() {
         </Switch> 
       </div>
 
-      <Card.Footer>
-        <div>
-          <i className="fab fa-vimeo-v"></i>
-          <i className="fab fa-youtube"></i>
-        </div>
 
-        <div>
-          hello@yay.com
-        </div>
 
-        <div>
-          Copyright 2020
-        </div>
+
+
+      <Card.Footer className="footer">
+        <Container>
+          <Row>
+            <Col>
+              <i className="fab fa-vimeo-v"></i>
+              <i className="fab fa-youtube"></i>
+            </Col>
+            <Col>
+              hello@yay.com
+            </Col>
+            <Col>
+              Copyright 2020
+            </Col>
+          </Row>
+        </Container>
       </Card.Footer>
+
+
+
+
+
     </Router>
 
     
