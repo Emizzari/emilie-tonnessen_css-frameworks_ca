@@ -10,33 +10,37 @@ import Form from "react-bootstrap/Form";
 import FormControl from "react-bootstrap/FormControl";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import { Container, Row, Col } from 'react-bootstrap';
 
 
 function App() {
   return (
     <Router>
-      <div>
-        <Navbar expand="lg">
-          <Navbar.Brand href="/">The YAY Company</Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <div className="wrapper">
+
+
+
+        <Navbar expand="lg" className="nav">
+          <Navbar.Brand href="/" className="nav__logo">The YAY Company</Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" className="nav__menu-icon"/>
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mr-auto">
-              <NavLink exact to="/" className="nav-link">
+            <Nav className="mr-auto nav__menu">
+              <NavLink exact to="/" className="nav-link nav__link">
                 Home
               </NavLink>
 
-              <NavLink to="/news" className="nav-link">
+              <NavLink to="/news" className="nav-link nav__link">
                 News
               </NavLink>
 
-              <NavLink to="/contact" className="nav-link">
+              <NavLink to="/contact" className="nav-link nav__link">
                 Contact
               </NavLink>
             </Nav>
           
             <Form inline>
-              <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-              <Button variant="outline-light">Go</Button>
+              <FormControl className="search" type="text" placeholder="Search" className="mr-sm-2" />
+              <Button className="search__btn" variant="outline-light">Go</Button>
             </Form>
           </Navbar.Collapse>
         </Navbar>
