@@ -2,7 +2,6 @@ import React from 'react';
 import Paginations from './content/Paginations';
 import Articles from './content/Articles';
 import Container from 'react-bootstrap/Container';
-import { Row, Col } from 'react-bootstrap';
 
 function News() {
     return (
