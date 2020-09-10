@@ -12,11 +12,11 @@ function Contact() {
                         <h1>Submit your details</h1>
                     </Col>
 
-                    <Col xs={{ span: 12, order: 1 }} md={{ span:6, order: 2}}>
+                    <Col className="container--contactInfo" xs={{ span: 12, order: 1 }} md={{ span:6, order: 3}}>
                         <ContactInfo />
                     </Col>
 
-                    <Col xs={{ span: 12, order: 3 }} md={{span:6, order: 3}}>
+                    <Col xs={{ span: 12, order: 3 }} md={{span:6, order: 2}}>
                         <ContactForm />
                     </Col>
                 </Row>
