@@ -4,11 +4,11 @@ import Pagination from 'react-bootstrap/Pagination';
 function Paginations() {
     return (
         <>
-            <Pagination>
-                <Pagination.Item>{1}</Pagination.Item>
-                <Pagination.Item>{2}</Pagination.Item>
-                <Pagination.Item>{3}</Pagination.Item>
-                <Pagination.Item>{4}</Pagination.Item>
+            <Pagination className="pagination">
+                <Pagination.Item active className="pagination__link">{1}</Pagination.Item>
+                <Pagination.Item className="pagination__link">{2}</Pagination.Item>
+                <Pagination.Item className="pagination__link">{3}</Pagination.Item>
+                <Pagination.Item className="pagination__link">{4}</Pagination.Item>
             </Pagination>
         </>
     )

@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container';
 function News() {
     return (
         <>
-            <Container>
+            <Container className="container--paginations">
                 <h1>News</h1>
             </Container>
 
@@ -18,7 +18,7 @@ function News() {
                 <Articles />
             </Container>
 
-            <Container>
+            <Container className="container--paginations">
                 <Paginations />
             </Container>
         </>
