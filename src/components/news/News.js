@@ -14,7 +14,7 @@ function News() {
                 <Paginations />
             </Container>
 
-            <Container>
+            <Container className="container--articles">
                 <Articles />
             </Container>
 

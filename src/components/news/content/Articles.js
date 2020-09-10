@@ -1,5 +1,5 @@
 import React from 'react';
-import {Card, Button, Row} from 'react-bootstrap';
+import {Card, Button, Row, Col} from 'react-bootstrap';
 import NewsImage1 from '../images/news-1.png';
 import NewsImage2 from '../images/news-2.png';
 import NewsImage3 from '../images/news-3.png';
@@ -13,93 +13,113 @@ function Articles() {
     return (
         <>
         <Row>
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={NewsImage1} />
-                <Card.Body>
-                    <Card.Title>Nunc porttitor vel</Card.Title>
-                    <Card.Text>
-                        Nunc malesuada eget est fringilla dapibus.
-                    </Card.Text>
-                    <Button variant="primary">MORE</Button>
-                </Card.Body>
-            </Card>
+            <Col sm={12} md={6} lg={3}>
+                <Card className="article">
+                    <Card.Img variant="top" className="article__img" src={NewsImage1}/>
+                    <Card.Body className="article__body">
+                        <Card.Title className="article__title">Nunc porttitor vel</Card.Title>
+                        <Card.Text className="article__text">
+                            Nunc malesuada eget est fringilla dapibus.
+                        </Card.Text>
+                        <Button className="article__btn" variant="primary">MORE</Button>
+                    </Card.Body>
+                </Card>
+            </Col>
 
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={NewsImage2} />
-                <Card.Body>
-                    <Card.Title>Nunc porttitor vel</Card.Title>
-                    <Card.Text>
-                        Nunc malesuada eget est fringilla dapibus.
-                    </Card.Text>
-                    <Button variant="primary">MORE</Button>
-                </Card.Body>
-            </Card>
+            <Col sm={12} md={6} lg={3}>
+                <Card className="article">
+                        <Card.Img variant="top" className="article__img" src={NewsImage2} />
+                    <Card.Body className="article__body">
+                        <Card.Title className="article__title">Nunc porttitor vel</Card.Title>
+                        <Card.Text className="article__text">
+                            Nunc malesuada eget est fringilla dapibus.
+                        </Card.Text>
+                        <Button className="article__btn" variant="primary">MORE</Button>
+                    </Card.Body>
+                </Card>
+            </Col>
 
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={NewsImage3} />
-                <Card.Body>
-                    <Card.Title>Nunc porttitor vel</Card.Title>
-                    <Card.Text>
-                        Nunc malesuada eget est fringilla dapibus.
-                    </Card.Text>
-                    <Button variant="primary">MORE</Button>
-                </Card.Body>
-            </Card>
+            <Col sm={12} md={6} lg={3}>
+                <Card className="article">
+                    <Card.Img variant="top" className="article__img" src={NewsImage3} />
+                    <Card.Body className="article__body">
+                        <Card.Title className="article__title">Nunc porttitor vel</Card.Title>
+                        <Card.Text className="article__text">
+                            Nunc malesuada eget est fringilla dapibus.
+                        </Card.Text>
+                        <Button className="article__btn" variant="primary">MORE</Button>
+                    </Card.Body>
+                </Card>
+            </Col>
 
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={NewsImage4} />
-                <Card.Body>
-                    <Card.Title>Nunc porttitor vel</Card.Title>
-                    <Card.Text>
-                        Nunc malesuada eget est fringilla dapibus.
-                    </Card.Text>
-                    <Button variant="primary">MORE</Button>
-                </Card.Body>
-            </Card>
+            <Col sm={12} md={6} lg={3}>
+                <Card className="article">
+                    <Card.Img variant="top" className="article__img" src={NewsImage4} />
+                    <Card.Body className="article__body">
+                        <Card.Title className="article__title">Nunc porttitor vel</Card.Title>
+                        <Card.Text className="article__text">
+                            Nunc malesuada eget est fringilla dapibus.
+                        </Card.Text>
+                        <Button className="article__btn" variant="primary">MORE</Button>
+                    </Card.Body>
+                </Card>
+            </Col>
 
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={NewsImage5} />
-                <Card.Body>
-                    <Card.Title>Nunc porttitor vel</Card.Title>
-                    <Card.Text>
-                        Nunc malesuada eget est fringilla dapibus.
-                    </Card.Text>
-                    <Button variant="primary">MORE</Button>
-                </Card.Body>
-            </Card>
+            <Col sm={12} md={6} lg={3}>
+                <Card className="article">
+                    <Card.Img variant="top" className="article__img" src={NewsImage5} />
+                    <Card.Body className="article__body">
+                        <Card.Title className="article__title">Nunc porttitor vel</Card.Title>
+                        <Card.Text className="article__text">
+                            Nunc malesuada eget est fringilla dapibus.
+                        </Card.Text>
+                        <Button className="article__btn" variant="primary">MORE</Button>
+                    </Card.Body>
+                </Card>
+            </Col>
 
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={NewsImage6} />
-                <Card.Body>
-                    <Card.Title>Nunc porttitor vel</Card.Title>
-                    <Card.Text>
-                        Nunc malesuada eget est fringilla dapibus.
-                    </Card.Text>
-                    <Button variant="primary">MORE</Button>
-                </Card.Body>
-            </Card>
+            <Col sm={12} md={6} lg={3}>
+                <Card className="article">
+                    <Card.Img variant="top" className="article__img" src={NewsImage6} />
+                    <Card.Body className="article__body">
+                        <Card.Title className="article__title">Nunc porttitor vel</Card.Title>
+                        <Card.Text className="article__text">
+                            Nunc malesuada eget est fringilla dapibus.
+                        </Card.Text>
+                        <Button className="article__btn" variant="primary">MORE</Button>
+                    </Card.Body>
+                </Card>
+            </Col>
 
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={NewsImage7} />
-                <Card.Body>
-                    <Card.Title>Nunc porttitor vel</Card.Title>
-                    <Card.Text>
-                        Nunc malesuada eget est fringilla dapibus.
-                    </Card.Text>
-                    <Button variant="primary">MORE</Button>
-                </Card.Body>
-            </Card>
+            <Col sm={12} md={6} lg={3}>
+                <Card className="article">
+                    <Card.Img variant="top" className="article__img" src={NewsImage7} />
+                    <Card.Body className="article__body">
+                        <Card.Title className="article__title">Nunc porttitor vel</Card.Title>
+                        <Card.Text className="article__text">
+                            Nunc malesuada eget est fringilla dapibus.
+                        </Card.Text>
+                        <Button className="article__btn" variant="primary">MORE</Button>
+                    </Card.Body>
+                </Card>
+            </Col>
 
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={NewsImage8} />
-                <Card.Body>
-                    <Card.Title>Nunc porttitor vel</Card.Title>
-                    <Card.Text>
-                        Nunc malesuada eget est fringilla dapibus.
-                    </Card.Text>
-                    <Button variant="primary">MORE</Button>
-                </Card.Body>
-            </Card>
+            <Col sm={12} md={6} lg={3}>
+                <Card className="article">
+                    <Card.Img variant="top" className="article__img" src={NewsImage8} />
+                    <Card.Body className="article__body">
+                        <Card.Title className="article__title">Nunc porttitor vel</Card.Title>
+                        <Card.Text className="article__text">
+                            Nunc malesuada eget est fringilla dapibus.
+                        </Card.Text>
+                        <Button className="article__btn" variant="primary">MORE</Button>
+                    </Card.Body>
+                </Card>
+            </Col>
+
+
+ 
+            
         </Row>
         
         </>
