@@ -17,9 +17,6 @@ function App() {
   return (
     <Router>
       <div className="wrapper">
-
-
-
         <Navbar expand="lg" className="nav">
           <Navbar.Brand href="/" className="nav__logo">The YAY Company</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" className="nav__menu-icon"/>
@@ -28,25 +25,19 @@ function App() {
               <NavLink exact to="/" className="nav-link nav__link">
                 Home
               </NavLink>
-
               <NavLink to="/news" className="nav-link nav__link">
                 News
               </NavLink>
-
               <NavLink to="/contact" className="nav-link nav__link">
                 Contact
               </NavLink>
             </Nav>
-          
-            <Form inline>
-              <FormControl className="search" type="text" placeholder="Search" className="mr-sm-2" />
+            <Form inline className="search">
+              <FormControl type="text" placeholder="Search" className="mr-sm-2 search__input" />
               <Button className="search__btn" variant="outline-light">Go</Button>
             </Form>
           </Navbar.Collapse>
         </Navbar>
-      
-
-      
         <Switch>
           <Route exact path="/">
             <Home />
@@ -59,11 +50,6 @@ function App() {
           </Route>
         </Switch> 
       </div>
-
-
-
-
-
       <Card.Footer className="footer">
         <Container>
           <Row>
@@ -80,14 +66,7 @@ function App() {
           </Row>
         </Container>
       </Card.Footer>
-
-
-
-
-
     </Router>
-
-    
   );
 }
 
