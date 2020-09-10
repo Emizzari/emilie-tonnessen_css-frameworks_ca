@@ -53,14 +53,14 @@ function App() {
       <Card.Footer className="footer">
         <Container>
           <Row>
-            <Col>
+            <Col sm={12} md={4} className="footer__icons">
               <i className="fab fa-vimeo-v"></i>
               <i className="fab fa-youtube"></i>
             </Col>
-            <Col>
+            <Col  className="footer__email">
               hello@yay.com
             </Col>
-            <Col>
+            <Col  className="footer__copyright">
               Copyright 2020
             </Col>
           </Row>

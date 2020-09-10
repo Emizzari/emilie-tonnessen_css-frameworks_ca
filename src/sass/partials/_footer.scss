@@ -5,6 +5,13 @@
     background: $white;
     text-align: center;
     margin-top: 3rem;
+
+    &__email{
+        &:hover{
+            color: colors(primary);
+            cursor: pointer;
+        }
+    }
 }
 
 .fa-vimeo-v,
@@ -13,5 +20,10 @@
 
     &:first-child{
         padding-right: 20px;
+    }
+
+    &:hover{
+        color: colors(primary);
+        cursor: pointer;
     }
 }
