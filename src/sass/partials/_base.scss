@@ -49,6 +49,7 @@ $font-secondary: 'Playfair Display', serif;
 $regular: 400;
 $bold: 700;
 $italic: italic;
+$basic: normal;
 
 // Font Map:
 $fonts: (
@@ -56,19 +57,22 @@ $fonts: (
         base: $font-primary,
         regular: $regular,
         bold: $bold,
-        italic: $italic, 
+        italic: $italic,
+        basic: $basic, 
     ),
     heading: (
         base: $font-secondary,
         regular: $regular,
         bold: $bold,
         italic: $italic, 
+        basic: $basic, 
     ),
     logo: (
         base: $font-secondary,
         regular: $regular,
         bold: $bold,
         italic: $italic, 
+        basic: $basic, 
     )
 );
 
