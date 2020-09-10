@@ -6,15 +6,15 @@ function ContactInfo() {
         <>
             <Container>
                 <Row>
-                    <i class="fas fa-envelope"></i>
+                    <i className="fas fa-envelope"></i>
                     <p>hello@yay.com</p>
                 </Row>
                 <Row>
-                    <i class="fas fa-phone"></i>
+                    <i className="fas fa-phone"></i>
                     <p>123 456 7890</p>
                 </Row>
                 <Row>
-                    <i class="fas fa-map-marker-alt"></i>
+                    <i className="fas fa-map-marker-alt"></i>
                     <div>
                         <p>123 Some street</p>
                         <p>Somewhere</p>
