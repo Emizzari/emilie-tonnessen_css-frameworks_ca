@@ -9,15 +9,12 @@ function News() {
             <Container className="container--paginations">
                 <h1>News</h1>
             </Container>
-
             <Container>
                 <Paginations />
             </Container>
-
             <Container className="container--articles">
                 <Articles />
             </Container>
-
             <Container className="container--paginations">
                 <Paginations />
             </Container>

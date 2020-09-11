@@ -8,9 +8,6 @@ function ContentAccordion() {
     return (
         <>
             <Accordion defaultActiveKey="0" className="container--accordion">
-
-
-
                 <Card className="accordion">
                     <Card.Header className="accordion__header">
                         <Accordion.Toggle as={Button} variant="link" eventKey="0">
@@ -33,9 +30,6 @@ function ContentAccordion() {
                         </>
                     </Accordion.Collapse>
                 </Card>
-
-
-
                 <Card className="accordion">
                     <Card.Header className="accordion__header">
                         <Accordion.Toggle as={Button} variant="link" eventKey="1">
@@ -58,11 +52,6 @@ function ContentAccordion() {
                         </>
                     </Accordion.Collapse>
                 </Card>
-
-
-
-
-
                 <Card className="accordion">
                     <Card.Header className="accordion__header">
                         <Accordion.Toggle as={Button} variant="link" eventKey="2">
@@ -85,10 +74,6 @@ function ContentAccordion() {
                         </>
                     </Accordion.Collapse>
                 </Card>
-
-
-
-
             </Accordion>
         </>
     )

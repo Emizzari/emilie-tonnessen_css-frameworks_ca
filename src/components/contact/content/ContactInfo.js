@@ -13,9 +13,6 @@ function ContactInfo() {
                         <p>hello@yay.com</p>
                     </div>
                 </Row>
-
-
-
                 <Row className="contactInfo__item">
                     <div className="contactInfo__icon">
                         <i className="fas fa-phone"></i>
@@ -24,9 +21,6 @@ function ContactInfo() {
                         <p>123 456 7890</p>
                     </div>
                 </Row>
-
-
-
                 <Row className="contactInfo__item">
                     <div className="contactInfo__icon">
                         <i className="fas fa-map-marker-alt"></i>
@@ -38,8 +32,6 @@ function ContactInfo() {
                         <p>10000</p>
                     </div>
                 </Row>
-
-                
             </Container>
         </>
     )
