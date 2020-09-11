@@ -42,8 +42,10 @@
 }
 
 .search{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+
     @media screen and (max-width: 991px) {
-        
         padding: 0px 20px 25px 20px;
     }
 
